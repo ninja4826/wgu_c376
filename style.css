@@ -1,0 +1,52 @@
+body {
+  margin: auto;
+  width: 80.0vw;
+  padding-top: 5vh;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > ul.nav-list > li.nav-item {
+  display: inline;
+}
+
+nav > ul.nav-list > li.nav-item > a.nav-link {
+  color: blue;
+}
+
+nav > ul.nav-list > li.nav-item > a.nav-link:hover {
+  font-style: italic;
+}
+
+nav > ul.nav-list > li.nav-item.nav-active > a.nav-link {
+  font-weight: bold;
+  color: green;
+}
+
+header.header-div {
+  position: relative;
+  bottom: 10px;
+}
+
+section#content-section {
+  float: left;
+  border: 1px solid red;
+  width: 50%;
+  padding: 10px;
+}
+
+aside#content-aside {
+  float: right;
+  border: 1px solid blue;
+  width: 40%;
+  padding: 10px;
+}
+
+img#fork-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
+}
