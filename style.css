@@ -50,3 +50,26 @@ img#fork-img {
   left: 0;
   border: 0;
 }
+
+figure {
+  display: inline-block;
+  text-align: center;
+}
+
+figure figcaption {
+  word-wrap: normal;
+  width: 149px;
+  position: absolute;
+  left: 0;
+  top: 149px;
+  font-size: 8px;
+}
+
+#container {
+  position: absolute;
+  top: 150px;
+  left: 5%;
+  margin: auto;
+  width: 80vw;
+  padding-top: 5vh;
+}
